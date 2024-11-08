@@ -1,0 +1,46 @@
+@media print and (color) {
+   * {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+   }
+}
+
+body{
+          margin:60px 100px 60px 100px;
+          font-family: Arial, Helvetica, sans-serif;
+          }
+
+.container{
+          text-align:center;
+          border: black 2px solid;
+          }
+          
+.left{
+  float: left;
+  }
+
+.right{
+  float: right;
+  }
+
+.center{
+  margin:0 auto;
+  display:inline-block;
+  }
+
+.logo{
+  text-align:center;
+  width:350px;
+  }  
+  
+.label{
+  background-color:silver;
+  text-align:center;
+  font-weight:bold;
+  }
+  
+.text{
+  text-align:center;
+  vertical-align:top;
+  font-weight:bold;
+  }
