@@ -1281,6 +1281,11 @@ table a:hover{
 .portfolio .span2, .portfolio .span3{
   margin-top:40px;
 }
+.SizeRConteiners{
+  font-size: 19px;
+  line-height: 30px
+  
+}
 
 .portfolio a{
   text-decoration:none;
